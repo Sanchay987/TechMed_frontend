@@ -1,0 +1,17 @@
+.topImg {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-right: 15px;
+    cursor: pointer;
+  }
+
+  .mystyle{
+    background-color: hsl(199, 52%, 85%);
+  }
+  
+  .fonti{
+    font-family: 'Permanent Marker', cursive;
+  }
+ 

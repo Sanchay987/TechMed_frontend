@@ -1,0 +1,1 @@
+export const BASE_URL = "https://techmed-s.onrender.com/api"
