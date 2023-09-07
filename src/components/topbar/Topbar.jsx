@@ -26,15 +26,15 @@ export default function Topbar() {
       <li className="nav-item"><Link className="nav-link" to="/setting">SETTINGS</Link></li>
       <li className="nav-item"><Link className="nav-link" to="/write">WRITE</Link></li>
       <li className="nav-item nav-link" onClick={handleLogout}>{user && "LOGOUT"}</li>
+      {user ? (<Link className='nav-link ' to="/setting"><img className="topImg" src={user.profilePic} alt="None"/></Link>) : (
+  <div>
+           <li className="nav-item"><Link className="nav-link" to="/login">LOGIN</Link></li>
+           <li className="nav-item"><Link className="nav-link" to="/register">REGISTER</Link></li>
+           </div>
+          )}
     </ul>
     </div>
- {user ? (<Link className='nav-link ' to="/setting"><img className="topImg" src={user.profilePic} alt="None"/></Link>) : (
-  
-   <ul className="navbar-nav bd-navbar-nav ml-md-auto d-none d-md-flex">
-            <li className="nav-item"><Link className="nav-link" to="/login">LOGIN</Link></li>
-            <li className="nav-item"><Link className="nav-link" to="/register">REGISTER</Link></li>
-    </ul>
-           )}
+ 
 
 </nav>
 
