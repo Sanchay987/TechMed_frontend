@@ -27,7 +27,7 @@ export default function Login() {
 
   return (
     <>
-    <div className="text-center body">
+    <div className="text-center body styled-form">
     <form className="form-signin" onSubmit={handleSubmit}>
       <h1 className="h3 mb-3 font-weight-normal">LOGIN</h1>
       <label className="sr-only">UserName</label>

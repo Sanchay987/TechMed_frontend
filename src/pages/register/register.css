@@ -6,3 +6,15 @@
 }
 
 
+.styled-form {
+  background-image: url('../../../src/images/blog8.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  color: #ffffff; /* Text color on top of the background */
+}
+
+
+
